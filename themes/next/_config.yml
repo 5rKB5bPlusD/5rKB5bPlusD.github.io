@@ -24,7 +24,7 @@ custom_file_path:
   #sidebar: source/_data/sidebar.njk
   #postMeta: source/_data/post-meta.njk
   #postBodyEnd: source/_data/post-body-end.njk
-  #footer: source/_data/footer.njk
+  footer: source/_data/footer.swig
   #bodyEnd: source/_data/body-end.njk
   #variable: source/_data/variables.styl
   #mixin: source/_data/mixins.styl
@@ -718,7 +718,7 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # For more information: http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
-  enable: false
+  enable: true
   total_visitors: true
   total_visitors_icon: fa fa-user
   total_views: true
@@ -871,6 +871,15 @@ canvas_ribbon:
   alpha: 0.6 # The transparency of the ribbon
   zIndex: -1 # The display level of the ribbon
 
+# Canvas-nest
+# Dependencies: https://github.com/theme-next/theme-next-canvas-nest
+# canvas_nest:
+#   enable: true
+#   onmobile: true # display on mobile or not
+#   color: "0,0,255" # RGB values, use ',' to separate
+#   opacity: 0.5 # the opacity of line: 0~1
+#   zIndex: -1 # z-index property of the background
+#   count: 99 # the number of lines
 
 # ---------------------------------------------------------------
 # CDN Settings
