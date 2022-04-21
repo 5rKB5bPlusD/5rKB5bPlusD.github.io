@@ -14,20 +14,34 @@ uTools官网 http://www.u.tools/
 ```javascript
 /**
  * 文件整理工具
+ * 文件移动，文件夹压缩移动，源文件/文件夹进入回收站
  * 需要安装7z，设置环境变量 https://www.7-zip.org/
  * 需要cmdutils支持回收文件 http://www.maddogsw.com/cmdutils/
  * 以上两个工具都要配置在环境变量中
  */
 
+const logPath = path.join(os.tmpdir(), 'history.log')
+const payload = {{payload}}
+console.log(logPath)
+
 //文件整理配置
-const config = {
+let config = {
     '.*': 'D:/xxx/archive/杂项',
     '.*发票|行程.*': 'D:/xxx/archive/报销'
 }
 
-const logPath = path.join(os.tmpdir(), 'history.log')
-const payload = {{payload}}
-console.log(logPath)
+//在当前目录整理
+// let current_dir = payload[0].path.slice(0, payload[0].path.lastIndexOf('\\'))
+// let config = {
+//     '.*': current_dir + '/杂项',
+//     '.*发票|行程.*': current_dir + '/报销'
+// }
+
+// for (let i in config) {
+//     if (!fs.existsSync(config[i])) {
+//         fs.mkdirSync(config[i])
+//     }
+// }
 
 //获取文件夹大小
 const getSize = function(nowPath) {
