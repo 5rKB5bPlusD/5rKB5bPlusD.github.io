@@ -50,8 +50,15 @@
       </tags>
   </entry>
   <entry>
-    <title>start personal hexo website</title>
-    <url>/uncategorized/start-personal-hexo-website/</url>
+    <title>搭建一个基于 Hexo + Github Pages 的博客</title>
+    <url>/record/start-personal-hexo-website/</url>
     <content><![CDATA[]]></content>
+      <categories>
+        <category>record</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Github Pages</tag>
+      </tags>
   </entry>
 </search>
