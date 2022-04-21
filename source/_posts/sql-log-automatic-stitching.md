@@ -1,8 +1,9 @@
 ---
 title: sql日志自动拼接
 date: 2022-04-20 20:46:06
-categories: uTools
-tags:
+categories: code
+tags: 
+- uTools
 ---
 
 uTools官网 http://www.u.tools/
