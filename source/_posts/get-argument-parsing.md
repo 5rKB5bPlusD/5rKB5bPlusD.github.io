@@ -8,7 +8,7 @@ tags:
 
 uTools官网 http://www.u.tools/
 
-![](https://api.onedrive.com/v1.0/shares/s!AmIICgBbPfPTjmdJt05MEH3YBeWI/root/content)
+![](https://api.onedrive.com/v1.0/shares/s!AmIICgBbPfPTjnYxDbNF7zA0te7a/root/content)
 <center style="font-size:14px;color:#C0C0C0;text-decoration:underline">快捷命令-get参数解析成json</center>
 <br/>
 
